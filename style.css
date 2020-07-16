@@ -19,9 +19,13 @@
     background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
     color: #fff;
     border: none;
-    border-radius: 8px;
+    border-radius: 10px;
     padding: 9px 25px;
     cursor: pointer;
+}
+
+.buy-now-button:hover{
+    background-image: linear-gradient(to bottom, #FF136F 0%, #FF589B 100%);
 }
 
 .cat1, .cat2, .cat3{
@@ -30,15 +34,14 @@
 }
 
 .cat1{
-    background-color: orange;
+    background-image: linear-gradient(45deg, #ff9d00, rgba(255, 196, 0, 0.69));
 }
 
 .cat2{
-    background-color: orchid;
+    background-image: linear-gradient(45deg, rgb(243, 0, 165), #da70d6b0);
 }
 
-.cat3{
-    background-color: blue;
+.cat3{background-image: linear-gradient(45deg, #0010ff, rgba(72, 72, 233, 0.65));
 }
 
 .categories h1{
@@ -59,4 +62,18 @@
     background-color: white;
     border-top: none;
     margin-bottom: 10px;
+}
+
+#subscribe{
+    height: 300px;
+}
+#subscribe h6{
+    color: gray;
+}
+footer{
+    text-align: center;
+}
+#subscribe-button{
+    margin-top: 9px;
+    font-size: 10px;
 }
